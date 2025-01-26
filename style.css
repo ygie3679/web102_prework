@@ -73,3 +73,21 @@ button {
     margin: 1%;
     border-radius: 7px;
 }
+
+button:hover {
+    cursor: pointer;
+    background-color: lightblue;
+    transform: scale(1.05);
+}
+
+.stats-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
